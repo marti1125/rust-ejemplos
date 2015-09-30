@@ -9,6 +9,8 @@ fn main() {
 
     println!("Pattern Variable (a), {:?}", a);
 
-    println!("Varible, {:?}", b);
+    println!("Varible sin definir su tipo, {:?}", c);
+
+    println!("Varible definiendo su tipo, {:?}", x);
 
 }
