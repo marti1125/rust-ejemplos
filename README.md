@@ -1,2 +1,14 @@
-# rust-ejemplos
-Ejemplos usario para MozMeetup Developer Edition - Octubre 2015
+# Ejemplos de [Rust v.1.16.0](https://www.rust-lang.org/es-ES/)
+
+#### Instrucciones
+
+```bash
+cargo build
+/target/debug/{exec}
+```
+
+#### Ejecutar tests
+
+```bash
+cargo test
+```

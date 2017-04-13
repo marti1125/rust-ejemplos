@@ -2,9 +2,13 @@ fn main(){
 
     let caballo = '♞';  // char
 
+    println!("Caballo {:?}", caballo);
+
     // Booleanos
     let t = true;
+    println!("boolean {:?}", t);
     let f :bool = false;
+    println!("boolean f:bool {:?}", f);
 
     // Tipos Numericos
     let n1 = 42; // de tipo i32
@@ -29,9 +33,12 @@ fn main(){
 
     // TUPLES
     let x = (1, "hola"); //let x: (i32, &str) = (1, "hello");
+    println!("Una tupla simple {:?}", x);
 
     let (x, y, z) = (1, 2, 3);
     println!("x es {}", x);
+    println!("y es {}", y);
+    println!("z es {}", z);
 
     // TUPLE INDEXING
     let tupla = (1, 2, 3);
@@ -41,5 +48,7 @@ fn main(){
     let c = tupla.2;
 
     println!("a es {}", a);
+    println!("b es {}", b);
+    println!("c es {}", c);
 
 }

@@ -1,4 +1,5 @@
-fn main() {
+fn main()
+
     let (a, b) = (1, 2);
 
     let x: i32 = 5;

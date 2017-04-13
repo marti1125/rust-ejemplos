@@ -18,7 +18,7 @@ fn potencia(x :i32, y :i32) -> i32 {
     let mut result = 1;
     for i in 1..y+1 {
         result = result * x;
-        //println!("Respuesta, {:?}", result);
+        println!("Respuesta, {:?}", result);
     }
     result
 }
