@@ -1,0 +1,8 @@
+[package]
+name = "mysqlapp"
+version = "0.1.0"
+authors = ["Willy Aguirre <marti1125@gmail.com>"]
+
+[dependencies]
+mysql = "*"
+chrono = "0.3"
