@@ -1,0 +1,6 @@
+[package]
+name = "strings"
+version = "0.1.0"
+authors = ["Willy Aguirre <marti1125@gmail.com>"]
+
+[dependencies]

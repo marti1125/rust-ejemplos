@@ -1,6 +1,7 @@
 fn main(){
 
-    let caballo = '♞';  // char
+    // Char
+    let caballo = '♞';
 
     println!("Caballo {:?}", caballo);
 
@@ -22,6 +23,14 @@ fn main(){
     // casteando un variable
     let total = n1 as f64 + float;
     println!("Total de {:?} + {:?} es: {:?}", n1, float, total);
+
+    //Array
+    let mut m = [1,3,5];
+
+    m[0] = 1;
+    m[1] = 6;
+
+    println!("Array {:?}", m);
 
     // SLICES
     let elementos = [0, 1, 2, 3, 4];
