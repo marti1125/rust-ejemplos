@@ -19,4 +19,9 @@ fn main() {
     for x in 0..10 {
         println!("{}", x); // x: i32
     }
+
+    for (index, value) in (5..10).enumerate() {
+        println!("index = {} and value = {}", index, value);
+    }
+
 }
