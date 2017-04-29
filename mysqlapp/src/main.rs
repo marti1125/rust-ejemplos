@@ -20,7 +20,7 @@ fn main() {
     // Insert new Event
     let events = vec![
         Event {
-            id: 13,
+            id: 16,
             name: "TEST RUST 2".to_string(),
             about: "bla bla bla bla bla bla bla bla bla".to_string(),
             date: NaiveDate::from_ymd(2016, 7, 8).and_hms(9, 10, 11)

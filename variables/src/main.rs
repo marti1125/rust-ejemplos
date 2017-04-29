@@ -1,4 +1,4 @@
-fn main()
+fn main()  {
 
     let (a, b) = (1, 2);
 

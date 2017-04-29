@@ -24,6 +24,10 @@ fn main(){
     let total = n1 as f64 + float;
     println!("Total de {:?} + {:?} es: {:?}", n1, float, total);
 
+    let mut z = 2;
+
+    z = 8;
+
     //Array
     let mut m = [1,3,5];
 
